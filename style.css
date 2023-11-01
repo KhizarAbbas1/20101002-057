@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+--primary-color: #ff7613;
+--text-color: #727171;
+
+}
+
+html {
+font-size:  10px;
+
+}
+
+body{
+    font-family: Inter, sans-serif;
+    background-color: black;
+    color: white;
+}
+.email_title{
+    margin-top: 10%;
+}
+/*common style */
+img{
+    width: auto;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*layout */
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    padding: 15rem;
+    background-color: #070707;
+    
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+
+}
+@media only screen and (max-width: 768px){
+    .container{
+        width: 100px;
+        grid-template-columns: 1fr;
+
+        padding:  3rem;
+        gap: 7rem;
+    }
+}
+
+.profile{
+    grid-column: 1 / -1;
+    margin-bottom: 5rem;
+
+}
+.profile_container{
+    display: flex;
+    gap: 10rem;
+}
+
+.profile_profileimg{
+    max-width: 250px;
+}
+
+.profile_name{
+    margin-top: 5%;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.profile_title {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+h3.project {
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+/*LEFT SIDE LAYOUT*/
+
+.title{
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+.skill_list{
+margin-top: 1rem;
+margin-left: 2rem;
+line-height: 2;
+}
+
+.education{
+    margin-top: 5rem;
+}
+.education_item1{
+    margin-top: 1rem;
+}
+.education_item2{
+    margin-top: 0.5rem;
+}
+.education_item3{
+    margin-top: 0.5rem;
+}
+
+.Hobbies{
+    margin-top: 5%;
+}
+.do_for_country{
+    margin-top: 5%;
+}
+
+.Professional_skills{
+    margin-top: 5%;
+}
+/*  RIGHT SIDE LAUOUT*/
+
+.project_item1{
+  margin-top: 4%;
+}
+.project_item2{
+    margin-top: 3%;
+  }
+  .project_item3{
+    margin-top: 3%;
+  }
+
+.language{
+    margin-top: 15% ;
+}
+.language_item1{
+    margin-top: 5%;
+}
+.language_item1{
+    margin-top: 3%;
+}
+
+.intrest{
+    margin-top: 8%;
+}
+intrest_item{
+    margin-top: 3%;
+}
+.life_ambition{
+    margin-top: 5%;
+}
+
+.want_for_country{
+    margin-top: 5%;
+}
